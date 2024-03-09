@@ -2,6 +2,7 @@ package org.javaacademy.company;
 
 import org.apache.commons.collections4.MultiMap;
 import org.apache.commons.collections4.map.MultiValueMap;
+import org.javaacademy.profession.Manager;
 import org.javaacademy.profession.Programmer;
 import org.javaacademy.profession.Task;
 
@@ -12,6 +13,7 @@ import java.util.Set;
 
 public class Company {
     private final String name;
+    private Manager manager;
     private int generalRate;
     private final Set<Programmer> programmers = new HashSet<>();
     private final Map<Programmer, Integer> timesheet = new HashMap<>();
