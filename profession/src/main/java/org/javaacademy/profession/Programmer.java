@@ -24,13 +24,10 @@ public class Programmer extends Employee {
         throw new RuntimeException("Ставка не входит в диапазон");
     }
 
-    public void getWork(Task task) {
+    public void setDoneTask(Task task) {
         this.task = task;
-    }
-
-    public void setDoneTask() {
         task.setDone(true);
-        System.out.printf("Задача: \"%s\" - выполнена", task.getName());
+        System.out.printf("Задача: \"%s\" - выполнена\n", task.getName());
     }
 
 }
