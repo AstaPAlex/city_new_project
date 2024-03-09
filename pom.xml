@@ -11,6 +11,8 @@
     <modules>
         <module>human</module>
         <module>civil_registry</module>
+        <module>profession</module>
+        <module>company</module>
     </modules>
 
     <properties>
