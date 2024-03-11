@@ -1,11 +1,10 @@
 package org.javaacademy.civil;
 
-import lombok.Value;
-
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+import lombok.Value;
 
 @Value
 public class WriterTypeRegistry {

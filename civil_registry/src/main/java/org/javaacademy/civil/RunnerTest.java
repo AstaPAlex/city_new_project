@@ -1,9 +1,8 @@
 package org.javaacademy.civil;
 
-import org.javaacademy.human.Gender;
-
 import java.time.LocalDate;
 import java.time.Month;
+import org.javaacademy.human.Gender;
 
 public class RunnerTest {
     public static void main(String[] args) {

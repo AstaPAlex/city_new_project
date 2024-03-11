@@ -1,14 +1,11 @@
 package org.javaacademy.human;
 
-
+import java.util.HashSet;
+import java.util.Set;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 import org.apache.commons.lang3.StringUtils;
 import org.javaacademy.human.exceptions.EqualsGenderParentsException;
-
-import java.util.HashSet;
-import java.util.Set;
-
 
 @Getter
 @EqualsAndHashCode(exclude = {"father", "mother", "children"})
